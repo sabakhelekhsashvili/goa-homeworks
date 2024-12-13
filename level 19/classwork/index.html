@@ -1,0 +1,80 @@
+<!-- 1) შექმენით ფორმა რომელშიც გექნებათ: 2 ტექსტური ინფუთი, 1 მეილის ინფუთი, 1 თარიღის ინფუთი, 1 პაროლის ინფუთი, drop-down menu და 1 submit'ის ინფუთი
+2) წარმოიდგინეთ ხართ facebook'ის developer'ი და შექმენით facebook'ის სარეგისტრაციო ფორმა -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="name">name</label>
+        <input type="text" name="name" id="name">
+        <br><br>
+        <label for="lastname">lastname</label>
+        <input type="text" name="lastname" id="lastname">
+        <br><br>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="date">date</label>
+        <input type="date" name="date" id="date">
+        <br><br>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password">
+        <br><br>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <br><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+    <h1>facebook</h1>
+    <h2>log in to facebook</h2>
+    <form>
+        <label for="number">number</label>
+        <input type="number" name="number" id="number" required>
+        <br><br>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" required>
+        <br><br>
+        <button type="submit">log in</button>
+        <br><br>
+        <a href="#">Forgot account?</a>
+        <a href="#">Sign up for Facebook</a>
+    </form>
+    <br><br><br>
+
+
+    <form>
+        <label for="name">first name</label>
+        <input type="text" name="first name" id="name">
+        <br><br>
+        <label for="lastname">lastname</label>
+        <input type="text" name="lastname" id="lastname">
+        <br><br>
+        <label for="date">date</label>
+        <input type="date" name="date" id="date">
+        <br><br>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <br><br>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password">
+        <br><br>
+        <button type="submit">sing up</button>
+        <br><br>
+        <a href="#">already have an account</a>
+    </form>
+</body>
+</html>

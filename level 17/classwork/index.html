@@ -1,0 +1,54 @@
+<!-- 1) შექმენით form label'ების გამოყენებით რომელშიც მომხმარებელს შემოატანინებთ, სახელს, მეილს და პაროლს.
+2) შექმენით form'ი placeholder'ების გამოყენებით რომელშიც მომხმარებელს შემოატანინებთ სახელს, დაბადების წელს, მეილს და პაროლს.
+3) შექმენით form'ი რომელიც მომხმარებელს აარჩევინებს კარტით იხდის თუ ქეშით. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+        <label for="pasword">Pasword</label>
+        <input type="password" name="pasword" id="pasword">
+        <input type="submit">
+    </form>
+    <br><br><br><br>
+    <form>
+        <label for="name">name</label>
+        <input type="text" name="name" id="name" placeholder="name">
+        <br>
+        <br>
+        <label for="date">date</label>
+        <input type="date" name="date" id="date" placeholder="date">
+        <br>
+        <br>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" placeholder="emial">
+        <br>
+        <br>
+        <label for="password">pasword</label>
+        <input type="password" name="pasword" id="pasword" placeholder="password">
+    </form>
+    <br><br><br><br>
+    <form>
+        <label>
+            <input type="radio" name="payment_method" value="card" required> card
+        </label>
+        <label>
+            <input type="radio" name="payment_method" value="cash" required> cash
+        </label>
+        <input type="submit">
+    </form>
+</body>
+</html>

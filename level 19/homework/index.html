@@ -1,0 +1,52 @@
+<!-- 2) შექმენით 3 სხვადასხვა Drop-Down Menu, 3 სხვადასხვა თემაზე ( თქვენი ფანტაზიით )
+3) შემოიტანეთ საიტზე 1 ვიდეო
+4) შემოიტანეთ საიტზე 1 აუდიო
+5) ახსენით ყველა ატრიბუტი რომლებსაც აუდიოებთან და ვიდეოებთან ვიყენებთ
+6) ახსენით რატომ ვიყენებთ source tag'ს და არა უბრალოდ src ატრიბუტს -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <select>
+            <option value="male" id="gender">male</option>
+            <option value="female">female</option>
+        </select>
+        <select name="cars" id="cars">
+            <option value="bmw">bmw</option>
+            <option value="mercedes">mercerdes</option>
+            <option value="audi">audi</option>
+            <option value="bugatti">bugatti</option>
+            <option value="lotus">lotus</option>
+            <option value="rolsrose">rolsrose</option>
+        </select>
+        <select name="food" id="food">
+            <option value="xachapuri">xachapuri</option>
+            <option value="xinkali">xinkali</option>
+            <option value="lobiani">lobiani</option>
+            <option value="kfc">kfc</option>
+            <option value="pizza">pizaa</option>
+            <option value="big mack">big mack</option>
+        </select>
+    </form>
+    <video controls width="30%">
+        <source src="./videos/შეცვალე შენი შვილის ცხოვრება.mp4" type="video/mp4">
+    </video>
+    <audio controls width="30%">
+        <source src="./videos/შეცვალე შენი შვილის ცხოვრება.mp3" type="audio/mp3">
+    </audio>
+    <!-- autoplay: ავტომატურად რთავს ვიდეოს / აუდიოს საიტის ჩატვირთვის თანავე
+    contols: უმატებს ვიდეოს / აუდიოს კონტროლებს ( გადახვევა, ჩართვა, დაპაუზება )
+    loop: როდესაც ვიდეო / აუდო მორჩება თავიდან ჩაირთვება ( უსასროლოდ )
+    width: ზომის შეცვლა -->
+
+    
+    <!-- რადგან დავამატოთ ბექაფები საიტზე ვიდეოებისთვის -->
+</body>
+</html>
